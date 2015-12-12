@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  </head>
+  <body>
+	  <div id="page_wrap">
+	  		<header class="main" id="h1">
+	  			<h2>Registo de entradas</h2>
+	  		</header>
+	  		<nav class="main" id="n1" role="navigation">
+				<span><a href="/">Inicio</a></span>
+				<span><a href="/registroPost">Registrar Post</a></span>
+			</nav>
+			<section class="main" id="s1">
+			   <%- body %>
+			</section>
+			<footer class="main" id="f1">
+				<a href="">Concatenos</a>
+			</footer>
+	  </div>
+	    <div class="b"></div>
+		  <div class="a">
+		  <form name="fomr" id="form" action="respuestaPost" method="post">
+		  <table>
+		  	<tr>
+		  		<td style="text-align: center;"><label>Nombres:</label></td>
+		  	</tr>
+		  	<tr>
+		  		<td style="text-align: center;"><input type="text" name="nombres" placeholder="Nombre"></td>
+		  	</tr>
+		  	<tr>
+		  		<td style="text-align: center;"><label>Entrada:</label></td>
+		  	</tr>
+		  	<tr>
+		  	<td style="text-align: center;"><input type="text" name="entrada" placeholder="Entrada"><br><br><input type="submit" name="submit" value="Registrar Post"></td>
+		  	
+		  	</tr>
+		  </table>
+		  </form>
+		  </div>
+	<div class="b"></div>
+  </div>
+  </body>
+</html>
